@@ -1,0 +1,51 @@
+.awards-page {
+    background-color: #cbcdd7;
+    height: fit-content;
+    color: #0f174a;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 21px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+    font-family: "Tsukimi Rounded";
+}
+
+.awards-content {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.awards-title {
+    margin-bottom: 60px;
+    width: inherit;
+    font-size: 32px;
+    font-family: "Sofia", serif;
+}
+
+.interests-content {
+    width: 100%;
+}
+
+.interests{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.interests>div {
+    width: 100%;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+}
+
+.interests-title {
+    margin-bottom: 60px;
+    width: inherit;
+    font-size: 32px;
+    font-family: "Sofia", serif;
+}

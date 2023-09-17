@@ -1,0 +1,161 @@
+.main-page {
+    color: whitesmoke;
+}
+
+.nav-bar {
+    height: fit-content;
+    width: inherit;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    margin: 0;
+    padding: 2%;
+    gap: 50px;
+}
+
+.nav-bar li {
+    list-style: none;
+    font-family: "Sofia", sans-serif;
+    cursor: pointer;
+}
+
+.nav-bar li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-bar li:hover {
+    font-weight: 600;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.intro-image {
+    position: relative;
+    display: inline-block;
+    /* flex-direction: column; */
+    /* height: 760px; */
+    width: 73%;
+    background-color: rgb(61 80 110);
+    background-image: url(../../public/intro-image-1.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: soft-light;
+}
+
+.intro-content {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-30%, -80%);
+    font-size: 24px;
+}
+
+.intro-content .intro-head {
+    font-family: 'Viga';
+    text-transform: uppercase;
+}
+
+.intro-content .bold-name {
+    font-family: 'Viga';
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.intro-content .under-name {
+    font-family: 'Ysabeau SC';
+    font-style: italic;
+    text-decoration: wavy;
+    font-size: 21px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    align-items: center;
+    text-align: center;
+    font-family: 'Viga';
+}
+
+.intro-text .round-image {
+    background-image: url("../../public/intro-round-img.jpg");
+    height: 140px;
+    width: 140px;
+    /* align-self: center; */
+    border-radius: 50%;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+.intro-text .intro-text-name {
+    font-size: 32px;
+}
+
+.intro-text .intro-text-creds {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 60px;
+}
+
+.intro-text .contact-info {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+}
+
+.intro-text .contact-info a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.intro-text .socials {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 42px;
+}
+
+.intro-text .socials svg {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.intro-text .download-cv-btn {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 52px;
+    width: 160px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: flex;
+    background-color: whitesmoke;
+    color: #0f174a;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2px;
+}

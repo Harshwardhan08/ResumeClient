@@ -1,0 +1,73 @@
+.skills-page {
+    background-color: whitesmoke;
+    height: fit-content;
+    width: 100%;
+    font-size: 21px;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.skills-content {
+    padding-left: 10%;
+    width: 70%;
+}
+
+.skills-title {
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-family: "Sofia", serif;
+    color: #0f174a;
+}
+
+.skills-content-text {
+    font-style: italic;
+    font-family: "Tsukimi Rounded";
+    line-height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-name {
+    width: 35%;
+}
+
+
+.skill-bar {
+    height: 8px;
+    width: 65%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0, 0, 0, 0.1);
+    align-self: center;
+}
+
+.skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: #0f174a;
+    opacity: 0;
+}
+
+.animate {
+    animation: progress 0.4s ease-in-out forwards;
+}
+
+.skill-per.javascript {
+    width: 60%;
+    animation-delay: 0.2s;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

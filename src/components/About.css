@@ -1,0 +1,28 @@
+.about-page {
+    background-color: #cbcdd7;
+    height: fit-content;
+    width: 100%;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-content {
+    padding-left: 10%;
+    width: 70%;
+}
+
+.about-title {
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-family: "Sofia", serif;
+    color: #0f174a;
+}
+
+.about-content-text {
+    font-style: italic;
+    font-family: "Tsukimi Rounded";
+    line-height: 35px;
+}
