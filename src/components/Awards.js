@@ -38,14 +38,14 @@ const Awards = () => {
                     </div>
                     <div>
                         <div>
-                            Gastronomy
+                            Billiards
                         </div>
                         <div>
-                            Travel
+                            Music
                         </div>
-                        <div>
+                        {/* <div>
                             Fitness
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
