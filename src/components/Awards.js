@@ -3,7 +3,7 @@ import './Awards.css';
 
 const Awards = () => {
     return (
-        <div className='awards-page' id='about'>
+        <div className='awards-page' id='awards'>
             <div className='awards-content'>
                 <div className='awards-title'>
                     {"<Awards />"}
