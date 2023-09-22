@@ -71,3 +71,16 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .skills-content-text {
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .skill-bar {
+        width: 100%;
+        align-self: unset;
+        margin-top: 2px;
+    }
+}

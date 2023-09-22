@@ -28,7 +28,7 @@
     width: 100%;
 }
 
-.interests{
+.interests {
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -48,4 +48,10 @@
     width: inherit;
     font-size: 32px;
     font-family: "Sofia", serif;
+}
+
+@media screen and (max-width: 600px) {
+    .interests {
+        flex-direction: column;
+    }
 }
